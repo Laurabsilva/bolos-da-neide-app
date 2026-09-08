@@ -1,0 +1,1 @@
+O cliente deste repositório é a Bolos da Neide, uma empresa de encomendas de bolos. O objetivo do sistema é organizar os pedidos, clientes, pagamentos e o acompanhamento das encomendas, facilitando o controle do negócio.
