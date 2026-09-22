@@ -15,7 +15,7 @@ span {
     font-size: 13px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 5px;
-    color: #99332E;
+    color: #a18055;
 }
 
 header {
@@ -82,13 +82,22 @@ header {
     object-fit: cover;
 }
 
-.personagens {
+#cardapio {
     padding-top: 10px;
 }
 
-.personagens h2 {
+#cardapio h2 {
     font-size: 32px;
     margin-bottom: 10px;
+}
+
+#cardapio p {
+    text-align: right;
+    font-size: 18px;
+    align-items: center;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 
 .cards {
@@ -100,10 +109,30 @@ header {
     padding-bottom: 20px;
 }
 
+.cards h2 {
+    color: rgb(31, 27, 30);
+    margin-top: 20px;
+}
+
+.bolostradicionais {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    gap: 8px;
+    
+
+}
+
+.bolosaniversario {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    gap: 8px;    
+}
 .card {
     background-color: white;
     padding: 10px;
-    width: 30%;
+    width: 40%;
     border-radius: 20px;
     align-items: center;
     flex-direction: row;
@@ -115,6 +144,7 @@ header {
     width: 100%;
     height: 300px;
     object-fit: cover;
+    border-radius: 8px;
 }
 
 .card h3 {
@@ -123,7 +153,7 @@ header {
 
 .card p {
     margin-top: 10px;
-    font-weight: 520;
+    font-weight: 490;
     padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -144,6 +174,8 @@ footer {
 }
 
 hr {
+    padding: 20px;
     margin-top: 20px;
-    color: pink;
+    background-color: #a48358;
+    border: none;
 }
