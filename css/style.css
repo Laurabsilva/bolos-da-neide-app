@@ -184,7 +184,8 @@ footer {
     justify-content: center;
     line-height: 1;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 8px;
+    font-size: 15px;
+    gap: 12px;
 }
 
 #requisitos {
