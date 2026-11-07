@@ -11,7 +11,7 @@ body {
     padding: 8px;
 }
 
-span {
+span, a {
     text-transform: uppercase;
     font-weight: 550;
     font-size: 13px;
